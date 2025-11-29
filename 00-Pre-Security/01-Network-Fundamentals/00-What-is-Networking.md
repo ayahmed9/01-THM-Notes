@@ -91,6 +91,9 @@ To communicate and maintain order, devices must be both indentifying and identif
           - Hextet = hex block (hexadecimal + "octet")
             - 4 hex digits
               - 2 bytes
+              - 16 bits
+                - 16 bits ➗ 4 hex digits 🟰 4 bits/hex digit
+                  - 16 bits ➗ 2 bytes 🟰 8 bits/byte
       - More efficient due to new methodologies
 
 ### Media Access Control (MAC) Address
@@ -113,3 +116,4 @@ To communicate and maintain order, devices must be both indentifying and identif
   - Ex: a4:c3:f0:85:ac:2d
     - 12 hex digits ✖️ 4 bits/hex digit 🟰 48 bits
       - 6 bytes translated from binary into hexadecimal for readabliity
+        - 1 byte = 2 hex digits = 8 bits = 1 octet
